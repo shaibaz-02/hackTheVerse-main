@@ -15,7 +15,25 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="https://kit.fontawesome.com/5f1b73a811.js" crossorigin="anonymous"></script>
-
+    <!-- register button ka css code -->
+    <style>
+        .oval-button {
+          display: inline-block;
+          padding: 10px 20px;
+          border-radius: 20px 50px; 
+          background-color: blue;
+          color: white;
+          text-align: center;
+          text-decoration: none;
+          font-size: 16px; 
+          cursor: pointer;
+          outline: none;
+          border: none;
+        }
+        .oval-button:hover {
+          background-color: darkblue;
+        }
+      </style>
 </head>
 
 <body>
@@ -550,6 +568,10 @@ l-28 32 -2 -84z" />
                     <div class="clock-body">
                         <div id="timer">00:00:00</div>
                     </div>
+                    <div>
+                        <a href="https://forms.gle/iFAzatS5iPJuuAjZ7" target="_blank"><button class="oval-button" >register now</button></a>
+                    <!-- <button class="oval-button" >register now</button> -->
+                </div>
                 </div>
             </section>
             <section id="about">
@@ -743,7 +765,7 @@ l-28 32 -2 -84z" />
         return value < 10 ? '0' + value : value;
     }
 
-    startTimer(); // Start  automatically when the page loads
+    startTimer();
 
 
 

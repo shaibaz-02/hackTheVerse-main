@@ -540,9 +540,9 @@ marquee {
         display: grid;
         grid-template-columns: 100%;
     }
-    /* #timeline{
+    #timeline{
         display: none;
-    } */
+    }
 }
 
 @media (max-width: 1024px) {
